@@ -1,0 +1,62 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.timer {
+    font-weight: 500;
+    font-size: 168px;
+    line-height: 168px;
+}
+.timer-content {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.memo-input {
+    width: 50vh;
+    height: 5vh;
+}
+.memo-wrapper {
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.memo {
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
+}
+
+.modal-button-div {
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+    background-size:  cover;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card-header {
+    color: red;
+}
+.card-body {
+    color: blue;
+}
